@@ -19,7 +19,10 @@
     :no-confirm-product="noConfirmProduct"
     :confirm-product="confirmProduct"
   ></ProductBackstageModal>
-  <ProductBackstageModalDel :confirm-productDel="confirmProductDel"></ProductBackstageModalDel>
+  <ProductBackstageModalDel
+    :confirm-productDel="confirmProductDel"
+    :temp-product="tempProduct"
+  ></ProductBackstageModalDel>
   <!-- Modal -->
 </template>
 

@@ -39,6 +39,6 @@
 
 <script>
 export default {
-  props: ['confirmProductDel']
+  props: ['confirmProductDel', 'tempProduct']
 }
 </script>
