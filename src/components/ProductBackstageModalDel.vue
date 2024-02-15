@@ -21,7 +21,7 @@
           ></button>
         </div>
         <div class="modal-body">
-          是否刪除
+          是否刪除{{ tempProduct.title }}
           <strong class="text-danger"></strong> 商品(刪除後將無法恢復)。
         </div>
         <div class="modal-footer">

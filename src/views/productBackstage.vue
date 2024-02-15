@@ -77,7 +77,7 @@ export default {
         productModalUse.show()
       } else if (state === 'edit') {
         this.state = '編輯'
-        this.tempProduct = product
+        this.tempProduct = { ...product }
         productModalUse.show()
       } else if (state === 'del') {
         this.tempProduct = product
